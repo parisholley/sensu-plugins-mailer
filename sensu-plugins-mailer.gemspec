@@ -33,6 +33,7 @@ Gem::Specification.new do |s|
 
 
   s.add_runtime_dependency 'sensu-plugin'
+  s.add_runtime_dependency 'mail'
 
   s.add_development_dependency 'codeclimate-test-reporter'
   s.add_development_dependency 'rubocop', '~> 0.17.0'
